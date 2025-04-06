@@ -56,12 +56,11 @@ const main = async () => {
     account: signer,
     chain,
     transport: http(),
-  }).extend(eip7702Actions());
+  });
 
   const authorization = await walletClient.signAuthorization({
     contractAddress:
       KernelVersionToAddressesMap[kernelVersion].accountImplementationAddress,
-    delegate: true,
   });
 
   const ecdsaValidator = await signerToEcdsaValidator(publicClient, {

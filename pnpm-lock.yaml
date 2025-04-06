@@ -7,37 +7,37 @@ settings:
 dependencies:
   '@zerodev/ecdsa-validator':
     specifier: ^5.4.5
-    version: 5.4.5(@zerodev/sdk@5.4.28)(viem@2.23.15)
+    version: 5.4.5(@zerodev/sdk@5.4.28)(viem@2.25.0)
   '@zerodev/hooks':
     specifier: ^5.3.3
-    version: 5.3.3(@zerodev/sdk@5.4.28)(viem@2.23.15)
+    version: 5.3.3(@zerodev/sdk@5.4.28)(viem@2.25.0)
   '@zerodev/intent':
     specifier: ^0.0.24
-    version: 0.0.24(@zerodev/webauthn-key@5.4.3)(viem@2.23.15)
+    version: 0.0.24(@zerodev/webauthn-key@5.4.3)(viem@2.25.0)
   '@zerodev/multi-chain-ecdsa-validator':
     specifier: ^5.4.4
-    version: 5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15)
+    version: 5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0)
   '@zerodev/permissions':
     specifier: ^5.5.4
-    version: 5.5.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15)
+    version: 5.5.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0)
   '@zerodev/remote-signer':
     specifier: ^5.3.2
-    version: 5.3.2(@zerodev/sdk@5.4.28)(viem@2.23.15)
+    version: 5.3.2(@zerodev/sdk@5.4.28)(viem@2.25.0)
   '@zerodev/sdk':
     specifier: ^5.4.28
-    version: 5.4.28(viem@2.23.15)
+    version: 5.4.28(viem@2.25.0)
   '@zerodev/session-key':
     specifier: ^5.5.2
-    version: 5.5.2(@zerodev/sdk@5.4.28)(viem@2.23.15)
+    version: 5.5.2(@zerodev/sdk@5.4.28)(viem@2.25.0)
   '@zerodev/weighted-ecdsa-validator':
     specifier: ^5.4.2
-    version: 5.4.2(@zerodev/sdk@5.4.28)(viem@2.23.15)
+    version: 5.4.2(@zerodev/sdk@5.4.28)(viem@2.25.0)
   '@zerodev/weighted-validator':
     specifier: ^5.4.5
-    version: 5.4.5(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15)
+    version: 5.4.5(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0)
   viem:
-    specifier: ^2.23.15
-    version: 2.23.15(typescript@5.8.3)
+    specifier: ^2.25.0
+    version: 2.25.0(typescript@5.8.3)
 
 devDependencies:
   '@types/node':
@@ -367,40 +367,40 @@ packages:
       undici-types: 6.19.8
     dev: true
 
-  /@zerodev/ecdsa-validator@5.4.5(@zerodev/sdk@5.4.28)(viem@2.23.15):
+  /@zerodev/ecdsa-validator@5.4.5(@zerodev/sdk@5.4.28)(viem@2.25.0):
     resolution: {integrity: sha512-B9QsqqNZBevny+KzTQOiOGlFC1NreU1dlEW2ghZzCpYLVLgpQ7iOpRoOMmFyfsTVJoQQoSNEfgkoE9gzh2V8fw==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.13
       viem: ^2.23.15
     dependencies:
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/hooks@5.3.3(@zerodev/sdk@5.4.28)(viem@2.23.15):
+  /@zerodev/hooks@5.3.3(@zerodev/sdk@5.4.28)(viem@2.25.0):
     resolution: {integrity: sha512-fIURVVJ5+erhCzqUP0UyxhDWqok4I1PdLVP9BwBy2wZh9TAk2RLGPeCzf51BvUwvvZbgP7/lfDUaXMQ+wPALSA==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
       viem: ^2.23.15
     dependencies:
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/intent@0.0.24(@zerodev/webauthn-key@5.4.3)(viem@2.23.15):
+  /@zerodev/intent@0.0.24(@zerodev/webauthn-key@5.4.3)(viem@2.25.0):
     resolution: {integrity: sha512-s/Isov82/bfIIUSUcG3ywB18gGj5sy3lu8Boa/JtcEdhldOI+7TC9x8Iv5ItYzIwPfwrd2oM9rE+Xen5Fu6Qwg==}
     peerDependencies:
       viem: ^2.21.40
     dependencies:
-      '@zerodev/ecdsa-validator': 5.4.5(@zerodev/sdk@5.4.28)(viem@2.23.15)
-      '@zerodev/multi-chain-ecdsa-validator': 5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15)
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/ecdsa-validator': 5.4.5(@zerodev/sdk@5.4.28)(viem@2.25.0)
+      '@zerodev/multi-chain-ecdsa-validator': 5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     transitivePeerDependencies:
       - '@zerodev/webauthn-key'
     dev: false
 
-  /@zerodev/multi-chain-ecdsa-validator@5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15):
+  /@zerodev/multi-chain-ecdsa-validator@5.4.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0):
     resolution: {integrity: sha512-+AWsgHehWlIpktiakoc2hgzybayf3FhLM0bonBv6F0FiQSjfE5tJO5Tmc0CEQTMlkgSyXrbkj7BbPKtpvhg3Tw==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
@@ -409,13 +409,13 @@ packages:
     dependencies:
       '@simplewebauthn/browser': 9.0.1
       '@simplewebauthn/typescript-types': 8.3.4
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      '@zerodev/webauthn-key': 5.4.3(viem@2.23.15)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      '@zerodev/webauthn-key': 5.4.3(viem@2.25.0)
       merkletreejs: 0.3.11
-      viem: 2.23.15(typescript@5.8.3)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/permissions@5.5.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15):
+  /@zerodev/permissions@5.5.4(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0):
     resolution: {integrity: sha512-6T3Mf7YT6lNDOKQXfF0iNInxXY2SDQhfgjSDrMy+DriHHDjKFc/EhX+jdNVNRYz9nWR8cVItUml7P8Y8IFwNIg==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
@@ -423,43 +423,43 @@ packages:
       viem: ^2.23.15
     dependencies:
       '@simplewebauthn/browser': 9.0.1
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      '@zerodev/webauthn-key': 5.4.3(viem@2.23.15)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      '@zerodev/webauthn-key': 5.4.3(viem@2.25.0)
       merkletreejs: 0.3.11
-      viem: 2.23.15(typescript@5.8.3)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/remote-signer@5.3.2(@zerodev/sdk@5.4.28)(viem@2.23.15):
+  /@zerodev/remote-signer@5.3.2(@zerodev/sdk@5.4.28)(viem@2.25.0):
     resolution: {integrity: sha512-demiRkSoeuBmSDLcTmybgjYa/7N5N3cG4DMhYvLAuZgyIxXCKpdgpQj0vMKR1f8ns37Ev7cPDdHDne2x7G4Xzw==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
       viem: ^2.23.15
     dependencies:
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/sdk@5.4.28(viem@2.23.15):
+  /@zerodev/sdk@5.4.28(viem@2.25.0):
     resolution: {integrity: sha512-gnD9gEmLUHy3nt8XfRJvGivu17XbwJdLzw8/keidr/stLqYpUJ/cWASrB48YeA1EJk0/Vy3Fd/tULi3sl7JUYA==}
     peerDependencies:
       viem: ^2.23.15
     dependencies:
       semver: 7.7.1
-      viem: 2.23.15(typescript@5.8.3)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/session-key@5.5.2(@zerodev/sdk@5.4.28)(viem@2.23.15):
+  /@zerodev/session-key@5.5.2(@zerodev/sdk@5.4.28)(viem@2.25.0):
     resolution: {integrity: sha512-8NtJUL8y/CjxbF8mpReHGDYT/0z3vayhOgKHDaxWQPROdGJBWEsf5wboyusbFV2MnwpDlEwbj6n98O2bNfzNaQ==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
       viem: ^2.23.15
     dependencies:
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
       merkletreejs: 0.3.11
-      viem: 2.23.15(typescript@5.8.3)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/webauthn-key@5.4.3(viem@2.23.15):
+  /@zerodev/webauthn-key@5.4.3(viem@2.25.0):
     resolution: {integrity: sha512-z2AKZMZjXL9psq3e8DgG7XS3FX/2rotNe0OXp2DnJq4TrDzhBm1xQ8AeIZOQYO4T7EceXGDYsWYIcQgT4uxHGQ==}
     peerDependencies:
       viem: ^2.23.15
@@ -467,20 +467,20 @@ packages:
       '@noble/curves': 1.8.1
       '@simplewebauthn/browser': 8.3.7
       '@simplewebauthn/types': 12.0.0
-      viem: 2.23.15(typescript@5.8.3)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/weighted-ecdsa-validator@5.4.2(@zerodev/sdk@5.4.28)(viem@2.23.15):
+  /@zerodev/weighted-ecdsa-validator@5.4.2(@zerodev/sdk@5.4.28)(viem@2.25.0):
     resolution: {integrity: sha512-u8CCjG3xJ4qi682Sp3rotGf9OBKCl/uGu47JRKO/xzht7C98NWmvvWTFgLZU3SZWrC+/rgwJSZCYRpHqgE0KKA==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
       viem: ^2.23.15
     dependencies:
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
-  /@zerodev/weighted-validator@5.4.5(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.23.15):
+  /@zerodev/weighted-validator@5.4.5(@zerodev/sdk@5.4.28)(@zerodev/webauthn-key@5.4.3)(viem@2.25.0):
     resolution: {integrity: sha512-r+wnzaFBtCJIJoxGRyMSD7vPYvs9SgyNRJHid9/obxvNIyEic1F80YOCSYfmU5stPDGkWGFyw2q3hadzfpXKfg==}
     peerDependencies:
       '@zerodev/sdk': ^5.4.0
@@ -489,9 +489,9 @@ packages:
     dependencies:
       '@noble/curves': 1.8.1
       '@simplewebauthn/browser': 8.3.7
-      '@zerodev/sdk': 5.4.28(viem@2.23.15)
-      '@zerodev/webauthn-key': 5.4.3(viem@2.23.15)
-      viem: 2.23.15(typescript@5.8.3)
+      '@zerodev/sdk': 5.4.28(viem@2.25.0)
+      '@zerodev/webauthn-key': 5.4.3(viem@2.25.0)
+      viem: 2.25.0(typescript@5.8.3)
     dev: false
 
   /abitype@1.0.8(typescript@5.8.3):
@@ -736,8 +736,8 @@ packages:
     resolution: {integrity: sha512-E8VjFIQ/TyQgp+TZfS6l8yp/xWppSAHzidGiRrqe4bK4XP9pTRyKFgGJpO3SN7zdX4DeomTrwaseCHovfpFcqQ==}
     dev: false
 
-  /viem@2.23.15(typescript@5.8.3):
-    resolution: {integrity: sha512-2t9lROkSzj/ciEZ08NqAHZ6c+J1wKLwJ4qpUxcHdVHcLBt6GfO9+ycuZycTT05ckfJ6TbwnMXMa3bMonvhtUMw==}
+  /viem@2.25.0(typescript@5.8.3):
+    resolution: {integrity: sha512-TtFgfQkZOfb642s8+i+h27dRhBfZV//WWOkZ9saoS1Ml8kipj9RiOiDaSmAUly1rhq9kbnYhni1xVtb195XVGA==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
